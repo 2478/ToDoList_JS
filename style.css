@@ -1,0 +1,41 @@
+.container{
+    text-align: center;
+    padding-top: 15%;
+}
+#box{
+    width: 30vw;
+}
+body{
+    background-color: rgb(243, 94, 119);
+}
+h1{
+    letter-spacing: 10px;
+	margin-bottom: 20px;
+	position: relative;
+	
+    
+    
+    background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 1.5s linear infinite;
+    font-weight: bold;
+    border-width: thick;
+    position: relative;
+    text-align: center;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+  text-transform: uppercase;
+  }
+  @-webkit-keyframes glow {
+    from {
+     color: #fff;
+   text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 50px #00fff2;
+ }
+ 
+ to {
+    color: gray;
+   text-shadow: 0 0 10px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 50px #00fff2;
+ }
+}
